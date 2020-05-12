@@ -15,10 +15,10 @@ driver.get('https://discord.com/login')
 
 time.sleep(5)
 emailogin = driver.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[1]/div/input')
-emailogin.send_keys('donato.v.fiore@gmail.com')
+emailogin.send_keys('EMAIL')
 
 passlogin = driver.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[2]/div/input')
-passlogin.send_keys('DahQGgHcyk5842K')
+passlogin.send_keys('PASSWORD')
 
 driver.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/button[2]').click()
 time.sleep(25)
